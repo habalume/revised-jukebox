@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Soundcloudapi</title>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/scappi.css">
+  </head>
+<body>
+  <h2>EDM Jukebox:</h2>
+  <h2 id="nowplaying"></h2><br>
+  <div id="container">
+    <img id="artwork" src="images/nevada.png" id="image"><br>
+  </div>
+  <audio id="audioTag" src="audio/nevada.mp3"></audio>
+  <p>Click songs buttons to load tracks into Jukebox:</p>
+  <ul id="playlist">
+    <li><button id="nevadaButton">Nevada.mp3</button></li> 
+    <li><button id="aloneButton">Alone.mp3</button></li> 
+  </ul>
+  <div id="buttonbar">
+    <button id="stopbtn"><i class="fa fa-stop" aria-hidden="true"></i>STOP</button>
+    <button id="playbtn"><i class="fa fa-play" aria-hidden="true"></i>PLAY</button>
+    <button id="pausebtn"><i class="fa fa-pause" aria-hidden="true"></i>PAUSE</button>
+  </div>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"</script>-->
+<script src="scappi.js"></script>
+<!--<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>-->
+  
+</body>
+</html>
